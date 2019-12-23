@@ -1,0 +1,23 @@
+<!--pages/clock LS/clock LS.wxml-->
+<view class='title'>编辑闹钟</view>
+
+<view class='demo-box'>
+
+<view class='title'>上午或下午</view>
+<radio-group bindchange='radioChange_am_or_pm'>
+<view wx:for='{{radioItems}}' wx:key='item{{index}}'>
+<radio value='{{item.value}}' checked='{{item.checked}}'/>{{item.name}}
+</view>
+</radio-group>  
+
+ <input name='time_data' placeholder='时间：{{clock[index0-1][0].time}}点'bindinput='timeinput'/>
+
+<input name='kind_data' placeholder='小药盒位置：{{clock[index0-1][0].kind}}'bindinput='kindinput'/>
+
+<input name='number_data' placeholder='药量：{{clock[index0-1][0].number}}'bindinput='numberinput'/>
+
+<button class='save' bindtap="setStorageSync">保存</button> 
+
+ </view> 
+
+

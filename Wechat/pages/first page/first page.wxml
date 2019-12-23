@@ -1,0 +1,4 @@
+<!--pages/first page/first page.wxml-->
+<view class="content">
+	<image class='background' src="../../images/background.jpg" mode="aspectFill"></image>
+</view>

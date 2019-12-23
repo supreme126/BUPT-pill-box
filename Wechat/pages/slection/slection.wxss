@@ -1,0 +1,26 @@
+/* pages/slection/slection.wxss */
+.dad {
+    width: 688rpx;
+  margin-top:17%; 
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 10rpx;
+  line-height: 100rpx;
+}
+
+.help {
+    width: 688rpx;
+  margin-top:17%; 
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 10rpx;
+  line-height: 100rpx;
+}
+.Kf {
+    width: 688rpx;
+  margin-top:7%; 
+  background-color: rgb(0, 194, 0);
+  color: white;
+  border-radius: 10rpx;
+  line-height: 100rpx;
+}

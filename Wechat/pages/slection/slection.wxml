@@ -1,0 +1,12 @@
+<!--pages/slection/slection.wxml-->
+<view bindtap='tel'>
+<button  class='help'>紧急电话</button>
+</view>
+<view bindtap='tel2'>
+<button  class='Kf'>联系客服</button>
+</view>
+  <view class='demo-box'>
+  <navigator url="../Ds/Ds" >
+  <button  class='dad'>打赏</button>
+  </navigator>
+  </view>

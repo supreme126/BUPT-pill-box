@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/clock page/clock page",
+    "pages/first page/first page",
+    "pages/environment/environment",
+    "pages/slection/slection",
+    "pages/clock/clock",
+    "pages/clock LS/clock LS",
+    "pages/clock2/clock2",
+    "pages/shopping/shopping",
+    "pages/Ds/Ds",
+    "pages/user/user"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1BC3B8",
+    "navigationBarTitleText": "2Health Pill Case",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "backgroundColor": "#1BC3B8",
+    "list": [
+      {
+        "pagePath": "pages/first page/first page",
+        "text": "首页",
+        "iconPath": "images/home.jpg",
+        "selectedIconPath": "images/home2.jpg"
+      },
+
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "商城",
+        "iconPath": "images/shopping.jpg",
+        "selectedIconPath": "images/shopping2.jpg"
+      },
+      
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/user2.jpg",
+        "selectedIconPath": "images/user.jpg"
+      },
+      {
+        "pagePath": "pages/slection/slection",
+        "text": "设置",
+        "iconPath": "images/stt.jpg",
+        "selectedIconPath": "images/stt2.jpg"
+      }
+    ],
+    "position": "bottom"
+  },
+  "sitemapLocation": "sitemap43.json"
+}

@@ -1,0 +1,13 @@
+<!--pages/environment/environment.wxml-->
+<canvas class = "canvas" id="chart1"
+canvas-id="humidity"></canvas>
+
+<canvas class = "canvas" id="chart3"
+canvas-id="tempe"></canvas>
+
+<text class="text">
+★★★温馨提示★★★</text>
+<text class="text2">为了保证药品所含药效
+     请您注意药品所处环境
+     避免因有效成分流失等
+     对您的健康等造成伤害</text>

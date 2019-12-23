@@ -1,0 +1,22 @@
+<!--pages/clock/clock.wxml-->
+<view class='new'>★新建闹钟★</view>
+<view class='demo-box'>
+
+<view class='title'>上午或下午</view>
+<radio-group bindchange='radioChange_am_or_pm'>
+<view wx:for='{{radioItems}}' wx:key='item{{index}}'>
+<radio value='{{item.value}}' checked='{{item.checked}}'/>{{item.name}}
+</view>
+</radio-group>
+
+<input name='time_data' placeholder='请输入时间（1-12）' bindinput='timeinput'/>
+
+<input name='kind_data' placeholder='请输入药盒所在位置'bindinput='kindinput'/>
+
+<input name='number_data' placeholder='请输入药量（阿拉伯数字）'bindinput='numberinput'/>
+
+<button class='save' bindtap="setStorageSync">保存</button>
+
+</view>
+
+

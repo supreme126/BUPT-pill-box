@@ -1,0 +1,12 @@
+<!--user.wxml-->
+  <view class='demo-box'>
+  <navigator url="../environment/environment" >
+  <button  class='environment'>药品所处环境</button>
+  </navigator>
+  </view>
+
+  <view class='demo-box'>
+  <navigator url="../clock page/clock page" >
+  <button  class='clock'>药品服用定时</button>
+  </navigator>
+  </view>

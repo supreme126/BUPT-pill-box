@@ -1,0 +1,4 @@
+<!--pages/shopping/shopping.wxml-->
+<view class="content">
+	<image class='background' src="../../images/hez.jpg" mode="aspectFill"></image>
+</view>

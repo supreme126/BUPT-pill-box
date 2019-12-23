@@ -1,0 +1,7 @@
+<!--pages/Ds/Ds.wxml-->
+<text class="text">OLZ多谢您好心
+好意我就心领了
+除非您坚持的话</text>
+<view class="content">
+	<image class='background' src="../../images/dad.jpg" mode="aspectFill"></image>
+</view>

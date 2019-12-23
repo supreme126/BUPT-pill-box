@@ -1,0 +1,15 @@
+<view>
+
+<view>目前一共有闹钟数{{temporary_clock_sum}}个</view>
+
+<view wx:for="{{clock}}" wx:key="{{index}}" wx:if="{{index<temporary_clock_sum}}" >
+<view>闹钟{{index+1}}:</view>
+<view><switch style='zoom:.8;' bindchange="switch_change" id="{{index}}" checked ="{{switch_data[index].bool}}"/></view>
+<view>上下午：{{item.clock[0].am_or_pm}}</view>
+<view>时间：{{item.clock[0].time}}</view>
+<view>药盒位置：{{item.clock[0].kind}}</view>
+<view>药量：{{item.clock[0].number}}</view>
+<button  class=".change" bindtap="edit_clock" id="{{index}}">修改</button>
+<button  class=".delete" bindtap="delete_clock"id="{{index}}" >删除</button>
+</view>
+</view>
